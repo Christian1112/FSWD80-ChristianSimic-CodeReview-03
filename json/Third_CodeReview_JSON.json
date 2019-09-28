@@ -1,0 +1,18 @@
+//array with the data for each team member 
+var teamMembers = [
+		{
+		 "name":"Fran", 
+		 "email":"fran@index.com",
+		 "image":"json/img/person1.png"
+		},
+		{
+		 "name":"Bill",
+		 "email":"bill@index.com",
+	 	 "image":"json/img/person2.png"
+	 	},
+		{
+		"name":"Fritz", 
+		 "email":"fritz@index.com",
+		 "image":"json/img/person3.png"
+		}
+	];

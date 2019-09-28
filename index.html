@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Third CodeReview</title>
+	<link rel="stylesheet" type="text/css" href="css/Third_CodeReview_Style.css">
+	<link href="https://fonts.googleapis.com/css?family=Rubik" rel="stylesheet">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+</head>
+<body>
+	<!-- Wrapper for whole content -->
+	<div class="wrapper">
+		<!-- Start for header -->
+		<header class="header">
+			<div class="img1">
+				<img src="img/logo.png">
+			</div>
+			<div class ="img2">
+				<img src="img/banner.png">
+			</div>
+		</header>
+		<!-- Start navbar -->
+		<nav class ="navbar">
+			<ul class="ulist">
+				<li><a href="index.html" title="Home"><span class="currentsite">Home</span></a></li>
+				<li><a href="team.html" title="Team">Team</a></li>
+			</ul>
+		</nav>
+		<!-- Content below navbar with 90% width -->
+		<div class="contentwrapper">
+			<div class="bgimg">
+				<img src="img/traffic-332857_1920.jpg">
+			</div>
+			<div class="carinsurance">
+				<p>Car insurance</p>
+			</div>
+			<!-- start of userinputs -->
+			<div class="userinputs">
+				<div class="inputtext">
+					<p>Great coverage begins with a custom quote</p>
+				</div>
+				<div class="inputs">
+					<input id="name" type="text" name="name" placeholder="Your Name">
+					<input id="age" type="number" name="age" placeholder="Cars Age">
+					<select id="country">
+						<option id="austria" value="austria">Austria</option>
+						<option id="hungary" value="hungary">Hungary</option>
+						<option id="greece" value="greece">Greece</option>
+					</select>
+					<input id="hp" type="number" name="hp" placeholder="Cars Horsepower">
+				</div>
+				<!-- Button for calculation -->
+				<div class="btnuoutput">
+					<button id ="btn">Calculate</button>
+					<!-- Here is going to be the output for your insurance price -->
+					<div id="insuranceoutput"></div>
+				</div>
+			</div>
+			<div class ="textwrapper">
+				<!-- Text with grey beckground -->
+				<div class ="textbelowinput">
+					<h1>Un-complicating car coverage</h1>
+					<p>Understanding your coverage options shouldn't be so hard. We'll guide you through available coverage types, starting with who and what is covered.</p>
+				</div>
+			</div>
+			<!-- the two infoboxes at the bottom of the page -->
+			<div class="infoboxes">
+				<div class="box leftbox">
+					<h2>What comes standard</h2>
+					<p>The coverage you need</p>
+					<ul>
+						<li><i class="fas fa-check"></i>Bodily Injury Liability</li>
+						<li><i class="fas fa-check"></i>Property Damage</li>
+						<li><i class="fas fa-check"></i>Medical Payments</li>
+					</ul>
+					<br>
+					<b><p>Benefits</p></b>
+					<p>12-month rate guarantee | 24/7 customer service | Lifetime Repair Guarantee</p>
+				</div>
+				<div class="box rightbox">
+					<h2>Add-on protection & coverage</h2>
+					<p>For more peace of mind</p>
+					<ul>
+						<li><i class="fas fa-check"></i>Better Car Replacement</li>
+						<li><i class="fas fa-check"></i>Towing & Labor</li>
+						<li><i class="fas fa-check"></i>Rental Car Coverage</li>
+					</ul>
+					<br>
+					<b><p>Earned Benefits</p></b>
+					<p>Accident Forgiveness<sup>1</sup> | New Car Replacement<sup>TM</sup></p>
+				</div>
+			</div>
+		</div>
+		<!-- Footer to end the page -->
+		<footer class="footer">
+			<div class="navbarbottom">
+				<ul class="ulistbottom">
+				<li>Home</li>
+				<li>Team</li>
+			</ul>
+			</div>
+			<div class ="footerimg">
+				<img src="img/logo-inv.png">
+			</div>
+			<div class="footertext">
+				<p>Christian Simic - CodeFactory 2019</p>	
+			</div>	
+		</footer>
+	</div>
+	<script src="json/Third_CodeReview_JSON.json"></script>
+	<script src="js/Third_CodeReview_JS.js"></script>
+</body>
+</html>
